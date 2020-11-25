@@ -1,0 +1,160 @@
+/*global*/
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+span {
+  text-align: center;
+}
+/*Header*/
+header {
+  background: #fff;
+  padding-top: 0px;
+  min-height: 70px;
+  border-bottom: red 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  width: 100%;
+}
+header img {
+  width: 265px;
+  margin: auto;
+  display: block;
+}
+header nav {
+  background: #35424a;
+  padding: 10px 10px;
+  text-align: center;
+}
+header .current a {
+  color: red;
+  font-weight: bold;
+}
+header a:hover {
+  color: #cccccc;
+}
+/*Showcase*/
+#showcase {
+  min-height: 250px;
+  text-align: center;
+  color: #fff;
+}
+#showcase h1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+#showcase p {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #35424a;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  border-top: red 3px solid;
+}
+footer img {
+  width: 40px;
+}
+
+@media (min-width: 1280px) {
+  body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+  }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header nav {
+    background: #35424a;
+    padding: 25px 25px;
+    text-align: center;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
+
+  header img {
+    width: 350px;
+    margin: auto;
+    display: block;
+  }
+  #showcase {
+    min-height: 400px;
+    background: url(showcase.jpg) no-repeat 0 0px;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+  }
+  #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 20px;
+  }
+}
